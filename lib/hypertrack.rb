@@ -26,7 +26,7 @@ require_relative "hypertrack/shared_resource"
 
 # Resources
 require_relative "hypertrack/resources/driver"
-require_relative "hypertrack/resources/customer"
+require_relative "hypertrack/resources/user"
 require_relative "hypertrack/resources/destination"
 require_relative "hypertrack/resources/task"
 require_relative "hypertrack/resources/trip"
