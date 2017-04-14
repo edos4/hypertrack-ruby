@@ -48,20 +48,20 @@ HyperTrack.secret_key = "<YOUR_SECRET_KEY>"
     HyperTrack::Driver.map_list
     ```
 
-- [Customer](http://docs.hypertrack.io/v2.0/docs/customers)
+- [User](http://docs.hypertrack.io/v2.0/docs/customers)
   - [Create](http://docs.hypertrack.io/v2.0/docs/customers#create-a-customer)
     ```ruby
-    HyperTrack::Customer.create(name: "SomeCustomer")
+    HyperTrack::User.create(name: "SomeCustomer")
     ```
 
   - [Retrieve](http://docs.hypertrack.io/v2.0/docs/customers#retrieve-a-customer)
     ```ruby
-    HyperTrack::Customer.retrieve(customer_id)
+    HyperTrack::User.retrieve(customer_id)
     ```
   - [List](http://docs.hypertrack.io/v2.0/docs/customers#list-all-customers)
 
     ```ruby
-    HyperTrack::Customer.list
+    HyperTrack::User.list
     ```
 
 - [Destination](http://docs.hypertrack.io/v2.0/docs/destinations)
